@@ -15,4 +15,3 @@ HTML
 
 Markup
 : impact on the writing
-
