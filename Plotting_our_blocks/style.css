@@ -22,7 +22,6 @@
     width: 730px;
     background-color: red;
     z-index: 1;
-    top: ;
     left: 220px;
     bottom: 335px;
 
@@ -63,3 +62,9 @@
     bottom: 415px;
 }
 
+#y3 {
+    margin: 5px;
+    position: relative;
+    left: 480px;
+    bottom: 415px;
+}
