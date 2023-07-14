@@ -217,7 +217,7 @@ h3{
 }
 
 
-#graybar{
+.graybar{
     display: flex;
     background-color: #333333;
     color: white;
