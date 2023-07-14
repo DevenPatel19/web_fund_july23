@@ -42,7 +42,9 @@ li a{
     color: white;
     position: relative;
     margin-bottom: 10px;
-    
+}
+.sgnout{
+    list-style-type: none;
 }
 button{
     display: block;
