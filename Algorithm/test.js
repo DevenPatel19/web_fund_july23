@@ -1,13 +1,16 @@
-var arr1 = [42, 3, 12, 8, 7, 89];
 
-function reverseArray(arr) {
-  for ( var i=0; i<(arr.length/2); i++) {
-    if(array[i] == array[arr.length-(1+i)]){
-    return true;
-} else{
-    return false;
+var fizzBuzz = (n) => {
+    let res = []
+
+    for (var i = 1; i <= n; i++){
+        let string = ''
+        if (i % 3 === 0) string += 'Fizz'
+        if (i % 5 === 0) string += 'Buzz'
+
+        if (string === '') string += i
+        res.push(string)
     }
-}
-}
 
-reverseArray(arr1);
+
+    return res
+};
