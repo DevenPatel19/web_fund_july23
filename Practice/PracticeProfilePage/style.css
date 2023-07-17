@@ -1,15 +1,15 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    /* outline: 1px red solid; */
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
-.nav{
+
+.nav {
     background-color: black;
     color: white;
     display: flex;
@@ -17,7 +17,8 @@ body{
     justify-content: space-evenly;
     align-items: center;
 }
-.space{
+
+.space {
     color: white;
     display: flex;
     flex-direction: row;
@@ -25,58 +26,66 @@ body{
     align-items: center;
     width: 500px;
 }
-p{
+
+p {
     font-size: 1.5rem;
     margin-right: 10px;
 }
-.header{
+
+.header {
     text-decoration: none;
     color: white;
     font-size: .8rem;
     margin-right: 10px;
 }
-button{
+
+button {
     background-color: #17A2B8;
     color: white;
     margin-left: 18%;
     width: 125px;
 }
-.content{
+
+.content {
     display: flex;
     margin-left: 20%;
     margin-right: 20%;
 
 }
 
-.col-a{
-    flex:60;
+.col-a {
+    flex: 60;
     display: flex;
     flex-direction: column;
     margin-right: 25px;
 }
-.user_card{
-    outline: 2px #CCCCCC solid;
-    /* margin-bottom: 25px; */
 
+.user_card {
+    outline: 2px #CCCCCC solid;
 }
-.band-blue{
+
+.band-blue {
     background-color: #17A2B8;
     height: 75px;
 }
-.profile{
+
+.profile {
     height: 100px;
     width: 100px;
     position: relative;
     bottom: 50px;
-    margin-left: 10px;;
+    margin-left: 10px;
+    ;
 }
-h1{
+
+h1 {
     font-weight: lighter;
     position: relative;
     bottom: 50px;
     margin-left: 10px;
 }
-.location{
+
+.location {
     display: flex;
     align-items: center;
     margin-top: 5px;
@@ -85,26 +94,30 @@ h1{
     bottom: 50px;
     margin-left: 10px;
 }
-.map-marker{
+
+.map-marker {
     height: 25px;
     width: 15px;
-    
 }
-h3{
+
+h3 {
     margin-left: 5px;
 }
-.about{
+
+.about {
     display: flex;
     flex-direction: column;
     position: relative;
     bottom: 50px;
     margin-left: 10px;
 }
-.slogan{
+
+.slogan {
     font-size: 1rem;
     margin-bottom: 25px;
 }
-.edit{
+
+.edit {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -112,56 +125,66 @@ h3{
     bottom: 50px;
     margin-left: 10px;
 }
-.gear{
+
+.gear {
     height: 25px;
     margin-right: 5px;
 }
-.edit-link{
 
-}
+/* .edit-link{
 
-.card{
+} */
+
+.card {
     display: flex;
     flex-direction: column;
     outline: 2px #CCCCCC solid;
-    margin-bottom:25px;
-    
+    margin-bottom: 25px;
+
 }
-.band-black{
+
+.band-black {
     background-color: black;
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.indent{
+
+.indent {
     margin-left: 10px;
     font-size: 1rem;
 }
-.ttl{
+
+.ttl {
     font-size: small;
     font-weight: bold;
     margin-left: 10px;
 }
-.tenure{
+
+.tenure {
     font-size: smaller;
     color: #8d8b8b;
     margin-left: 10px;
 }
-.focus{
+
+.focus {
     font-size: smaller;
     font-weight: 700;
     margin-left: 10px;
 }
-.col-b{
+
+.col-b {
     flex: 40;
 }
-.person{
+
+.person {
     display: flex;
     justify-content: left;
     margin: 5px;
     margin-left: 10px;
 }
-div > img {
+
+div>img {
     height: 25px;
     width: 25px;
     border-radius: 50px;
@@ -176,18 +199,22 @@ div > img {
     margin-left: 15px;
     margin-right: 50px;
 }
-.accept{
+
+.accept {
     margin-right: 5px;
 }
-.decline{
+
+.decline {
     margin-right: 5px;
 }
-.view-more{
+
+.view-more {
     border-top: 2px #CCCCCC solid;
     margin-top: 5px;
     padding-bottom: 7.5px;
     padding-top: 7.5px;
 }
-.view-more-link{
+
+.view-more-link {
     margin-left: 10px;
 }
