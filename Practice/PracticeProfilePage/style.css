@@ -9,7 +9,7 @@ body {
     gap: 25px;
 }
 
-.nav {
+nav {
     background-color: black;
     color: white;
     display: flex;
@@ -30,6 +30,7 @@ body {
 p {
     font-size: 1.5rem;
     margin-right: 10px;
+
 }
 
 .header {
@@ -75,7 +76,6 @@ button {
     position: relative;
     bottom: 50px;
     margin-left: 10px;
-    ;
 }
 
 h1 {
@@ -185,6 +185,7 @@ h3 {
     justify-content: left;
     margin: 5px;
     margin-left: 10px;
+    align-items: center;
 }
 
 div>img {
@@ -200,7 +201,8 @@ div>img {
 .name {
     font-size: .8rem;
     margin-left: 15px;
-    margin-right: 50px;
+    margin-right: 25px;
+    align-items: center;
 }
 
 .accept {
