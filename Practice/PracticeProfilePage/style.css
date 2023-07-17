@@ -154,7 +154,10 @@ h3 {
     margin-left: 10px;
     font-size: 1rem;
 }
-
+.experience{
+    margin-top: 10px;
+    margin-bottom: 25px;;
+}
 .ttl {
     font-size: small;
     font-weight: bold;
